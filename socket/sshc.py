@@ -2,7 +2,7 @@ import paramiko
 hostname='127.0.0.1'
 port=22
 username='user'
-pkey_file='/home/niaa/python/socket/.ssh/id.rsa'
+pkey_file='/home/niaa/.ssh/id_rsa'
 
 if __name__ == "__main__":
 	key = paramiko.RSAKey.from_private_key_file(pkey_file)
