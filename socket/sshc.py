@@ -1,7 +1,8 @@
 import paramiko 
-hostname='127.0.0.1'
+
+hostname='localhost'
 port=22
-username='user'
+username=' '
 pkey_file='/home/niaa/.ssh/id_rsa'
 
 if __name__ == "__main__":
